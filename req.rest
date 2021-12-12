@@ -1,0 +1,39 @@
+GET http://localhost:3001/tdup
+
+###
+GET http://localhost:3001/tdup/Rumah Makan
+
+###
+POST http://localhost:3001/tdup
+Content-Type: application/json
+
+{
+    "jenis_usaha": "Rumah Makan",
+    "nama_usaha": "Warung Doko Doyok",
+    "penanggung_jawab": "Doyok Cecep",
+    "alamat_usaha": "Jln. Bakri",
+    "no_tdup": "1231",
+    "no_surat_pengantar": "1232",
+    "no_rekomendasi": "1233",
+    "no_oss": "1234",
+    "ket": "-"
+}
+
+###
+PATCH  http://localhost:3001/tdup/7e41b226-529b-42c7-88cd-a2c6af26ae81
+Content-Type: application/json
+
+{
+    "jenis_usaha": "Cafe",
+    "nama_usaha": "Cafe Doyok",
+    "penanggung_jawab": "Doyok Cecep",
+    "alamat_usaha": "Jln. Bakri",
+    "no_tdup": "1231",
+    "no_surat_pengantar": "1232",
+    "no_rekomendasi": "1233",
+    "no_oss": "1234",
+    "ket": "-"
+}
+
+###
+DELETE http://localhost:3001/tdup/61ca437e-698d-4960-99af-63b69a7b57cb

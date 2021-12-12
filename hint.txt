@@ -1,0 +1,25 @@
++++++++server setup
+//init proj npm
+npm init -y
+
+//install untuk postgresql
+npm install express pg pg-hstore sequelize cors
+
+//install untuk mysql
+npm install express mysql2 sequelize cors
+
+//install sequelize CLI tool
+npm install --save-dev sequelize-cli   
+
+//ubah package.json
+"main".....
+"type": "module",
+
+//buat file index.js untuk default access point
+
+++++++++front end
+//membuat project react dengan nama frontend
+npx create-react-app frontend
+
+//react dependecies
+npm install react-router-dom axios bulma
